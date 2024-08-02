@@ -76,4 +76,4 @@ class RegistrationFormPage(BaseWrapper, RegistrationFormLocator):
 
         for label, value in dict_registration_table.items():
             locator = self.format_dynamic_locator(self.table_value, label, value)
-            assert self.is_element_visible(locator), f'В таблице непраивльное значение у параметра {label}'
+            assert self.is_element_visible(locator), f'В таблице неправильное значение у параметра {label}'
