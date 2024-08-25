@@ -6,11 +6,11 @@
 
 <h2>Отчеты Allure</h2>
 
-Для создания отчетов Allure вам необходимо при запуске тестов добавить <code>--allurediv results</code>, где <b>results</b> директория, куда будут сохранены отчеты.
+Для просмотра отчетов Allure вам необходимо после запуска тестов выполнить команду <code>allure serve allure_results</code>.
 
 <h2>Запуск тестов</h2>
 
-Чтобы запустить тесты, нужно выполнить команду <code>pytest --driver Chrome --alluredir results</code> - для Chrome.
+Чтобы запустить тесты, нужно выполнить команду <code>pytest tests --alluredir=allure_results</code>.
 
 <h2>Установленные пакеты</h2>
 
